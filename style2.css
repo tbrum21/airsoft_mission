@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  background-color:black;
+}
+.form-container{
+  max-width: 350px;
+  padding:1rem; 
+}
+
+main {
+  display: flex;
+  flex-direction: column; /* Colocar os itens em uma coluna */
+  justify-content: center; /* Centralizar verticalmente */
+  align-items: center; /* Centralizar horizontalmente */
+  height: 100vh; /* Altura total da janela */
+  text-align: center; /* Centralizar texto dentro dos elementos */
+}
+
+/* Adicionar algum espaçamento entre o vídeo e o botão */
+video {
+  margin-bottom: 20px;
+}
+
+
+
